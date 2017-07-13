@@ -1,18 +1,18 @@
-##Course Project - Getting and Cleaning Data
+## Course Project - Getting and Cleaning Data
 
-###Instructions
+### Instructions
     This repo contains course project to Coursera "Getting and Cleaning Data" . This is part of courses of the Data Science specialization. 
  
-###About the raw data
-   *The dataset being used is: Human Activity Recognition Using Smartphones  It can be downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+### About the raw data
+   * The dataset being used is: Human Activity Recognition Using Smartphones  It can be downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
     The features (561 of them) are unlabeled and can be found in the x_test.txt. The activity labels are in the y_test.txt file. The test     subjects are in the subject_test.txt file.
          The training data set has the similar contents.
 
-###The prerequisit of run the R script:
+### The prerequisit of run the R script:
  * Download the raw data (the zip file in above link), unzip it into local working direcory
  * Two packages (dplyr and data.table) are installed. 
 
-###The R script, run_analysis.R, does the following:
+### The R script, run_analysis.R, does the following:
 
 * Loads and merge the activity, feature and subject data sets from test and train within working directory seperately
 * Merge two data sets after loading
