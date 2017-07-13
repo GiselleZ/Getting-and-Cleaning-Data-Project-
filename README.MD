@@ -1,7 +1,8 @@
 ## Course Project - Getting and Cleaning Data
 
 ### Instructions
-    This repo contains course project to Coursera "Getting and Cleaning Data" . This is part of courses of the Data Science specialization. 
+    This repo contains course project to Coursera "Getting and Cleaning Data". 
+	This is part of courses of the Data Science specialization. 
  
 ### About the raw data
    * The dataset being used is: Human Activity Recognition Using Smartphones  It can be downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
