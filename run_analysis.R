@@ -25,7 +25,7 @@ testfeatures  <- read.table("test/X_test.txt", header = FALSE)
 trainfeatures <- read.table("train/X_train.txt", header = FALSE)
 features <- rbind(trainfeatures, testfeatures)
 
-completeData <- cbind(features,activity,subject)
+#completeData <- cbind(features,activity,subject)
 
 # Format training and test data sets
 
@@ -64,5 +64,5 @@ extractedData <- data.table(extractedData)
 # tidy data set
 
 suppressWarnings(tidydata <- aggregate(extractedData, by = list(extractedData$Subject, extractedData$Activity), FUN = mean))
-write.table(tidyData, file = "Tidy.txt", row.names = FALSE)
+write.table(tidydata, file = "Tidy.txt", row.names = FALSE)
 
